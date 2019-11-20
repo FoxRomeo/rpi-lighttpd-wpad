@@ -16,6 +16,7 @@ pipeline {
                 NAME = "rpi-lighttpd-wpad"
                 SECONDARYREGISTRY = "nexus.intrepid.local:4000"
                 SECONDARYNAME = "${NAME}"
+                COMMANDSHELL = "/bin/bash"
                 TARGETRUNVERSION = "./run_version.sh"
         }
         stages {
