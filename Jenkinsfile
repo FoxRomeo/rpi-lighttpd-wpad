@@ -3,7 +3,7 @@ pipeline {
                 label 'arm32v6 && Docker'
         }
         triggers {
-                cron('H H(2-7) * * 2')
+                cron('H H(2-7) * * 3')
         }
         options {
                 skipStagesAfterUnstable()
