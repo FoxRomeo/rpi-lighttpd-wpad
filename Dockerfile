@@ -6,7 +6,8 @@ RUN passwd -l root ; \
  rm -rf /var/cache/apk/* && \
  mkdir -p /var/cache/lighttpd/compress/ && \
  chown -R lighttpd /var/cache/lighttpd/compress/ && \
- rm -rf /etc/lighttpd/*
+ rm -rf /etc/lighttpd/* && \
+ addgroup lighttpd tty
 
 #EXPOSE 80
 
