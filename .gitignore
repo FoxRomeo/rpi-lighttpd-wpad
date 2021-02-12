@@ -1,3 +1,7 @@
 build.sh
 Build.sh
 proxy.pac
+Jenkinsfile
+action.sh
+get_version.sh
+run_version.sh

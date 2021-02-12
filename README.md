@@ -14,9 +14,9 @@ create proxy.pac/wapd.dat
 docker run -d --restart=unless-stopped --name rpi-lighttpd-wpad --hostname="wapd." -v /lighttpd.conf:/etc/lighttpd/lighttpd.conf -v /proxy.pac:/var/www/localhost/htdocs/proxy.pac -v /proxy.pac:/var/www/localhost/htdocs/wpad.dat -p 80:80 intrepidde/rpi-lighttpd-wpad
 
 
-1.0 based on armhf/alpine:3.4
-1.1 based on arm32v6/alpine:3.6
->1.1 based on arm32v6/alpine:latest and tag/version is the version of lighttpd used
+* 1.0 based on armhf/alpine:3.4
+* 1.1 based on arm32v6/alpine:3.6
+* >1.1 based on arm32v6/alpine:latest and tag/version is the version of lighttpd used
 
 https://hub.docker.com/r/intrepidde/rpi-lighttpd-wpad
 https://www.intrepid.de/index.php/projects/git-docker/6-intrepidde-rpi-lighttpd-wpad
