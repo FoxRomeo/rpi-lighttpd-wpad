@@ -16,7 +16,7 @@ docker run -d --restart=unless-stopped --name rpi-lighttpd-wpad --hostname="wapd
 
 * 1.0 based on armhf/alpine:3.4
 * 1.1 based on arm32v6/alpine:3.6
-* > 1.1 based on arm32v6/alpine:latest and tag/version is the version of lighttpd used
+* after 1.1 based on arm32v6/alpine:latest and tag/version is the version of lighttpd used
 
 https://hub.docker.com/r/intrepidde/rpi-lighttpd-wpad
 https://www.intrepid.de/index.php/projects/git-docker/6-intrepidde-rpi-lighttpd-wpad
