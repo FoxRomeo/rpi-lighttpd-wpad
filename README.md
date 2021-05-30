@@ -24,5 +24,7 @@ checking for open port from server.port in /etc/lighttpd/lighttpd.conf (or defin
 
 __based on arm32v6/alpine:3.12 (due to restrictions with newer versions)__
 
+
 https://hub.docker.com/r/intrepidde/rpi-lighttpd-wpad
+
 https://www.intrepid.de/index.php/projects/git-docker/6-intrepidde-rpi-lighttpd-wpad
