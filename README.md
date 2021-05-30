@@ -14,7 +14,8 @@ create proxy.pac/wapd.dat
 ```docker run -d --restart=unless-stopped --name rpi-lighttpd-wpad --hostname="wapd." -v /lighttpd.conf:/etc/lighttpd/lighttpd.conf -v /proxy.pac:/var/www/localhost/htdocs/proxy.pac -v /proxy.pac:/var/www/localhost/htdocs/wpad.dat -p 80:80 intrepidde/rpi-lighttpd-wpad```
 
 
-## Added health.sh
+__Added health.sh__
+
 checking for open port from server.port in /etc/lighttpd/lighttpd.conf (or define environment ```SERVER_PORT=xx```)
 
 
