@@ -17,4 +17,4 @@ RUN passwd -l root ; \
 
 CMD ["lighttpd", "-D", "-f", "/etc/lighttpd/lighttpd.conf"]
 
-# HEALTHCHECK --start-period=1m --interval=1m --timeout=5s CMD /health.sh
+HEALTHCHECK --start-period=1m --interval=1m --timeout=5s CMD /health.sh
