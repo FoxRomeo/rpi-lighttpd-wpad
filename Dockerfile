@@ -1,5 +1,4 @@
-FROM arm32v6/alpine:3.12
-#FROM arm32v6/alpine:latest
+FROM arm32v6/alpine:3.21
 MAINTAINER docker@intrepid.de
 
 COPY health.sh /
